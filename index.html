@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CardioCare</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+       <div class=" header-container">
+        <a href="#" class="logo">
+            <div class="logo-text">Cardio<span>Care</span></div>
+            <i class="fa-solid fa-heart-pulse logo-icon"></i>
+            </a>
+            <nav>
+                <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#advocacy">Cardiovascular Awareness</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    
+    <main>
+        <section id="home" class="home">
+             <div class="container">
+            <div class="home-content">
+                <h1 class ="home-title"> Every Pulse Carries A Purpose </h1>
+                <p class="subtitle"> Medicine is more than just science, it is about saving lives. </p>
+                <p class="home-description">Healthcare starts within ourselves, where prevention, awareness, and proper daily habits take place. Welcome to CardioCare, dedicated to guiding every beating heart. </p>
+            </div>
+            <img src="bg.png" alt="heart bg" class="heart-bg-img" width="370px">
+            </div>
+        </section>
+
+         <section id="about" class="about">
+            <div class="container">
+                <div class="profile-frame">
+         <img src="images/profile.jpg" alt="Althea Raya Malicsi" class="profile-img">  
+
+                 
+            </div>
+            <div class="about-text">
+                 <h2 class="about-title">About Me</h2>
+                <h3 class="profile"> Althea Raya Malicsi</h3>
+                <p> I am a Grade 11 student at Far Eastern Private School. I've always been interested in learning about human anatomy, specifically cardiovascular function. My ultimate dream is to get into a medical school and become 
+                    a great cardiologist. I believe that becoming a great doctor does not wait until treatments are needed, they create prevention.</p>
+            </div> 
+        </div>
+
+        </section>
+
+        <section id="advocacy" class="advocacy">
+            <div class="container">
+           <h2 class="advocacy-title">Why Do We Advocate Heart Health?</h2>
+           <p class="section-intro">Good health is not only a doctor's job, it requires personal effort and involves proper awareness to take care of ourselves. It takes proper self-care to maintain overall well-being. </p>
+       
+           <div class="btn-group">
+                        <button class="dash-btn active-btn" id="btn-risks" onclick="showWellnessTracker('risks')" >Cardiovascular Risks</button>
+                        <button class="dash-btn" id="btn-prevention" onclick="showWellnessTracker('prevention')" >Active Prevention</button>
+                        <button class="dash-btn" id="btn-mission" onclick="showWellnessTracker('mission')" >My Mission</button>
+        </div>
+
+        <div class="dashboard-box">
+            <h3 class="wellness-title">Wellness Tracker</h3>
+
+
+            <div id="risks" class="tab-content active-panel">
+               <h3>Cardiovascular Risks</h3>
+               <p> List of possible risks that affects Heart Health</p>
+               <ul>
+                  <li> Unhealthy Diets :</strong> Too much intake of foods that are high in sodium and have added sugars.</li>
+                  <li> Tobacco : </strong> Smoking cigars or vapes damages blood vessels.</li>
+                  <li> Alcohol Intake :</strong> Too much alcohol can raise blood pressure.</li>
+                  <li>Lack of Physical Activities :</strong> Lack of exercise contributes to high blood pressure and obesity.</li>
+            </ul>
+            </div>
+
+        <div id="prevention" class="tab-content">
+           <h3>Active Prevention</h3>
+           <p> Some heart diseases are caused by existing health conditions, family history, and aging. This is why it is important to :</p>
+           <ul>
+            <li>Schedule Regular Check-ups with a doctor.</li>
+            <li>Choosing a proper diet with a heart-friendly choice of foods.</li>
+            <li>Consistent Physical movements/activities.</li>
+           </ul>
+        </div>
+    
+        <div id="mission" class="tab-content">
+            <h3>My Mission</h3>
+            <p> The purpose of CardioCare is to utilize digital media to raise awareness for proper Heart Care, highlighting the timeless phrase "prevention is better than cure". </p>
+        </div>
+        </div>
+        </div>
+        </section>
+
+        <section id="contact" class="container">
+         <div class="hospital-row">
+            <h2>Medical Networks & Contacts</h2>
+            <p>Contact/Visit For More Information :</p>
+            <div class="hospital-tag">Rashid Hospital Contact Number : 800 60</div>
+            <div class="hospital-tag">Al Qassimi Hospital Contact Number : 06 518 8888</div>
+            </div>
+        </section>
+ 
+    </main>
+ 
+    <script src="script.js"></script>
+</body>
+</html>     
